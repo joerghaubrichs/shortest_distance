@@ -36,3 +36,9 @@ def find_shortest_distance(text: str, word1: str, word2: str,
     else:
         return None
 
+
+if __name__ == '__main__':
+    sample = 'We do value and reward motivation in our development team. Development is a key skill for a DevOp.'
+    distance = find_shortest_distance(sample, 'motivation', 'development')
+    print("Sample: ", sample)
+    print("Distance for 'motivation' and 'development': ", distance)
